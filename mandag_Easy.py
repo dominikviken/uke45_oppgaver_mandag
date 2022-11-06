@@ -56,8 +56,8 @@ while index <= 200:
 '''
 oppgave 4
 
-Bruk variablene num1 og num2 for implementere en funksjon som 
-returnere KUN oddetall. bruk gjerne funskjon print()
+Bruk variabler num1 og num2 for implementere en funksjon som deler disse (num1/num2). funksjonen skal returnere resultat til operasjonen hvis dette
+er partall.
 '''
 
 def oddeTall():

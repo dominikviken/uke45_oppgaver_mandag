@@ -41,25 +41,32 @@ Hvor mange ganger skal følgende loop kjøres?
 VELG RIKTIG SVAR
  alternative 1 = 150
  alternative 2 = 50
- alternative 3 = 10
+ alternative 3 = 30
  alterbative 4 = uendelig mange ganger.
 
 
 '''
 
-index = 150
-while index <= 200:
-    print(index)
-    index+=5
+r = 150
+while r <= 200:
+    print(r)
+    r+=5
 
 
 '''
 oppgave 4
 
-Bruk variabler num1 og num2 for implementere en funksjon som deler disse (num1/num2). funksjonen skal returnere resultat til operasjonen hvis dette
-er partall.
+forklar linje for linje hva er det som skjer i funksjonen oddTall.
+ VIKTIG!!!!! Forklar linjene først, før du tester den i editoren din.
+
+
 '''
 
 def oddeTall():
      num1 = random.randint(1,10) #tilfeldig tall mellom 1 og 10
      num2 = random.randint(2,9) #tilfeldig tall mellom 2 og 9
+     if num1%num2 ==0: ### symbol % betyr resten av tallet (deling)
+            result = num1/num2
+            
+     return result
+        

@@ -3,7 +3,8 @@ Oppgave 1
 
 
 
-opprett en klasse 'bil' med følgende egenskaper:
+Opprett en klasse 'bil' med følgende egenskaper:
+
 1.- motor  ##
 2.- antall_seter
 3.- farge

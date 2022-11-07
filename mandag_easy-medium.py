@@ -7,6 +7,8 @@ Alternative 1 = {1,2}
 Alternative 2 = {1, 'a', 2, 3, 'b', 4}
 alternative 3 = {1, 4, 6}
 alternative 4 = {1, 2, 3, 4, 'a', 'b', 'c', 5, 6}
+
+forklar hvorfor alternativet du velger er riktig.
 '''
 
 list1 = {1, 2, 3, 4, 5, 6}
@@ -49,6 +51,7 @@ Alternative 2 = 7
 Alternative 3 = 36
 Alternative 4 = 18
 
+forklar hvorfor alternativet du velger er riktig.
 
 '''
 
@@ -69,6 +72,8 @@ for x in range(15):
 Oppgave 4 
 
 Opprett en funskjon som summerer alle elementene i lister red og white
+
+forklar med ord løsningen du valgte
 '''
 
 red = [1, 2, 5, 0, 3, 1, 2]
